@@ -156,7 +156,7 @@ public struct Complex
 {
     public int R;
     public int I;
-    public Complex(int real, int b)
+    public Complex(int real, int imaginary)
     {
         R = real;
         I = imaginary;
