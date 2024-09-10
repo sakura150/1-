@@ -5,15 +5,14 @@ using System.Xml;
 
 
 
-
 internal partial class Program
 {
-static void ModandArgN(int numr, int numi, out double mod, out double arg)
+static void ModandArgN(int numreal, int numimaginary, out double modul, out double argument)
 {
-    mod = Math.Sqrt(numr * numr + numi * numi);
-    if (numr == 0 && numi == 0) arg = 0;
-    arg = Math.Atan2(numi, numr);
-    if (arg < 0) arg += 2 * Math.PI;
+    mod = Math.Sqrt(numreal * numreal + numimaginary * numimaginary);
+    if (numreal == 0 && numimaginary == 0) argument = 0;
+    arg = Math.Atan2(numimaginary, numreal);
+    if (argument < 0) argument += 2 * Math.PI;
 }
     
 
@@ -43,8 +42,8 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
                     Console.WriteLine("Введите мнимую часть комплексного числа");
                     int n2 = int.Parse(Console.ReadLine());
                     Complex c = new Complex(n1, n2);
-                    num1 = c.A;
-                    num2 = c.B;
+                    num1 = c.R;
+                    num2 = c.I;
                     break;
 
                 case 'b':
@@ -61,8 +60,8 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
                     int y2 = int.Parse(Console.ReadLine());
                     Complex c2 = new Complex(x2, y2);
                     prod = c1 + c2;
-                    num1 = prod.A;
-                    num2 = prod.B;
+                    num1 = prod.R;
+                    num2 = prod.I;
                     break;
 
                 case 'c':
@@ -79,8 +78,8 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
                     int b2 = int.Parse(Console.ReadLine());
                     Complex q2 = new Complex(a2, b2);
                     prod = q1 - q2;
-                    num1 = prod.A;
-                    num2 = prod.B;
+                    num1 = prod.R;
+                    num2 = prod.I;
                     break;
 
                 case 'd':
@@ -97,8 +96,8 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
                     int d2 = int.Parse(Console.ReadLine());
                     Complex w2 = new Complex(e2, d2);
                     prod = w2 * w1;
-                    num1 = prod.A;
-                    num2 = prod.B;
+                    num1 = prod.R;
+                    num2 = prod.I;
                     break;
                 case 'e':
                     num1 = 0;
@@ -114,8 +113,8 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
                     int i2 = int.Parse(Console.ReadLine());
                     Complex o2 = new Complex(u2, i2);
                     prod = o1 / o2;
-                    num1 = prod.A;
-                    num2 = prod.B;
+                    num1 = prod.R;
+                    num2 = prod.I;
                     break;
 
                 case 'f':
@@ -152,30 +151,30 @@ static void ModandArgN(int numr, int numi, out double mod, out double arg)
 
 public struct Complex
 {
-    public int A;
-    public int B;
-    public Complex(int a, int b)
+    public int R;
+    public int I;
+    public Complex(int real, int b)
     {
-        A = a;
-        B = b;
+        R = real;
+        I = imaginary;
     }
 
     public static Complex operator +(Complex x1, Complex x2)
     {
-        return new Complex(x1.A + x2.A, x1.B + x2.B);
+        return new Complex(x1.R + x2.R, x1.I + x2.I);
     }
     public static Complex operator -(Complex x1, Complex x2)
     {
-        return new Complex(x1.A - x2.A, x1.B - x2.B);
+        return new Complex(x1.R - x2.R, x1.I - x2.I);
     }
     public static Complex operator *(Complex x1, Complex x2)
     {
-        return new Complex(x1.A * x2.A - x1.B * x2.B, x1.A * x2.B + x1.B * x2.A);
+        return new Complex(x1.R* x2.R - x1.I * x2.I, x1.R * x2.I + x1.I * x2.R);
     }
     public static Complex operator /(Complex x1, Complex x2)
     {
-        return new Complex((x1.A * x2.A + x1.B * x2.B) / (x2.A * x2.A + x2.B * x2.B),
-            (x2.A * x1.B - x1.A * x2.B) / (x2.A * x2.A + x2.B * x2.B));
+        return new Complex((x1.R * x2.R + x1.I * x2.I) / (x2.R * x2.R + x2.I * x2.I),
+            (x2.R * x1.I - x1.R * x2.I) / (x2.R * x2.R + x2.I * x2.I));
 
     }
 }
