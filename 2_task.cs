@@ -9,9 +9,9 @@ internal partial class Program
 {
 static void ModandArgN(int numreal, int numimaginary, out double modul, out double argument)
 {
-    mod = Math.Sqrt(numreal * numreal + numimaginary * numimaginary);
+    modul = Math.Sqrt(numreal * numreal + numimaginary * numimaginary);
     if (numreal == 0 && numimaginary == 0) argument = 0;
-    arg = Math.Atan2(numimaginary, numreal);
+    argument = Math.Atan2(numimaginary, numreal);
     if (argument < 0) argument += 2 * Math.PI;
 }
     
@@ -43,8 +43,8 @@ static void ModandArgN(int numreal, int numimaginary, out double modul, out doub
                     Console.WriteLine( "Введите вещественную часть комплексного числа");
                     real= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного числа");
-                    image = int.Parse(Console.ReadLine());
-                    prod = new Complex(real, image);
+                    imag = int.Parse(Console.ReadLine());
+                    prod = new Complex(real, imag);
                     numr = prod.R;
                     numi = prod.I;
                     break;
@@ -125,7 +125,7 @@ static void ModandArgN(int numreal, int numimaginary, out double modul, out doub
                     real = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного числа");
                     imag = int.Parse(Console.ReadLine());
-                    prod= new Complex(real, image);
+                    prod= new Complex(real, imag);
 
                     numr = real;
                     numi = imag;
