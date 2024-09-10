@@ -29,114 +29,117 @@ static void ModandArgN(int numreal, int numimaginary, out double modul, out doub
         Console.WriteLine("Введите букву");
         char letter;
         letter = Console.ReadKey().KeyChar;
-        int num1 = 0, num2 = 0;
+        int numr = 0, numi = 0;
         double mod = 0, arg = 0;
         Complex prod;
+        Complex x1, x2;
+        int real, imag;
+        int real1, imag1, real2, imag2;
         while (letter != 'Q' && letter != 'q')
         {
             switch (letter)
             {
                 case 'a':
                     Console.WriteLine( "Введите вещественную часть комплексного числа");
-                    int n1 = int.Parse(Console.ReadLine());
+                    real= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного числа");
-                    int n2 = int.Parse(Console.ReadLine());
-                    Complex c = new Complex(n1, n2);
-                    num1 = c.R;
-                    num2 = c.I;
+                    image = int.Parse(Console.ReadLine());
+                    prod = new Complex(real, image);
+                    numr = prod.R;
+                    numi = prod.I;
                     break;
 
                 case 'b':
-                    num1 = 0;
-                    num2 = 0;
+                    numr = 0;
+                    numi = 0;
                     Console.WriteLine("Введите вещественную часть комплексного 1 числа");
-                    int x1 = int.Parse(Console.ReadLine());
+                    real1= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 1 числа");
-                    int y1 = int.Parse(Console.ReadLine());
-                    Complex c1 = new Complex(x1, y1);
+                    imag1 = int.Parse(Console.ReadLine());
+                    x1= new Complex(real1, imag1);
                     Console.WriteLine("Введите вещественную часть комплексного 2 числа");
-                    int x2 = int.Parse(Console.ReadLine());
+                    real2 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 2 числа");
-                    int y2 = int.Parse(Console.ReadLine());
-                    Complex c2 = new Complex(x2, y2);
-                    prod = c1 + c2;
-                    num1 = prod.R;
-                    num2 = prod.I;
+                    imag2 = int.Parse(Console.ReadLine());
+                    x2= new Complex(real2, imag2);
+                    prod = x1 + x2;
+                    numr = prod.R;
+                    numi = prod.I;
                     break;
 
                 case 'c':
-                    num1 = 0;
-                    num2 = 0;
+                    numr = 0;
+                    numi = 0;
                     Console.WriteLine("Введите вещественную часть комплексного 1 числа");
-                    int a1 = int.Parse(Console.ReadLine());
+                    real1= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 1 числа");
-                    int b1 = int.Parse(Console.ReadLine());
-                    Complex q1 = new Complex(a1, b1);
+                    imag1 = int.Parse(Console.ReadLine());
+                    x1= new Complex(real1, imag1);
                     Console.WriteLine("Введите вещественную часть комплексного 2 числа");
-                    int a2 = int.Parse(Console.ReadLine());
+                    real2 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 2 числа");
-                    int b2 = int.Parse(Console.ReadLine());
-                    Complex q2 = new Complex(a2, b2);
-                    prod = q1 - q2;
-                    num1 = prod.R;
-                    num2 = prod.I;
+                    imag2 = int.Parse(Console.ReadLine());
+                    x2= new Complex(real2, imag2);
+                    prod = x1-x2;
+                    numr = prod.R;
+                    numi = prod.I;
                     break;
 
                 case 'd':
-                    num1 = 0;
-                    num2 = 0;
+                    numr = 0;
+                    numi = 0;
                     Console.WriteLine("Введите вещественную часть комплексного 1 числа");
-                    int e1 = int.Parse(Console.ReadLine());
+                    real1= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного1 числа");
-                    int d1 = int.Parse(Console.ReadLine());
-                    Complex w1 = new Complex(e1, d1);
+                    imag1 = int.Parse(Console.ReadLine());
+                    x1= new Complex(real1, imag1);
                     Console.WriteLine("Введите вещественную часть комплексного 2 числа");
-                    int e2 = int.Parse(Console.ReadLine());
+                    real2 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 2 числа");
-                    int d2 = int.Parse(Console.ReadLine());
-                    Complex w2 = new Complex(e2, d2);
-                    prod = w2 * w1;
-                    num1 = prod.R;
-                    num2 = prod.I;
+                    imag2 = int.Parse(Console.ReadLine());
+                    x2= new Complex(real2, imag2);
+                    prod = x2 * x1;
+                    numr = prod.R;
+                    numi = prod.I;
                     break;
                 case 'e':
-                    num1 = 0;
-                    num2 = 0;
+                    numr = 0;
+                    numi = 0;
                     Console.WriteLine("Введите вещественную часть комплексного 1 числа");
-                    int u1 = int.Parse(Console.ReadLine());
+                    real1= int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 1 числа");
-                    int i1 = int.Parse(Console.ReadLine());
-                    Complex o1 = new Complex(u1, i1);
+                    imag1 = int.Parse(Console.ReadLine());
+                    x1= new Complex(real1, imag1);
                     Console.WriteLine("Введите вещественную часть комплексного 2 числа");
-                    int u2 = int.Parse(Console.ReadLine());
+                    real2 = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного 2 числа");
-                    int i2 = int.Parse(Console.ReadLine());
-                    Complex o2 = new Complex(u2, i2);
-                    prod = o1 / o2;
-                    num1 = prod.R;
-                    num2 = prod.I;
+                    imag2 = int.Parse(Console.ReadLine());
+                    x2= new Complex(real2, imag2);
+                    prod = x1 / x2;
+                    numr = prod.R;
+                    numi = prod.I;
                     break;
 
                 case 'f':
                     Console.WriteLine("Введите вещественную часть комплексного числа");
-                    int v1 = int.Parse(Console.ReadLine());
+                    real = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите мнимую часть комплексного числа");
-                    int v2 = int.Parse(Console.ReadLine());
-                    Complex p = new Complex(v1, v2);
+                    imag = int.Parse(Console.ReadLine());
+                    prod= new Complex(real, image);
 
-                    num1 = v1;
-                    num2 = v2;
-                    ModandArgN(num1, num2, out mod,out arg);
+                    numr = real;
+                    numi = imag;
+                    ModandArgN(numr, numi, out mod,out arg);
                     break;
 
                 case 'g':
                     
-                    Console.WriteLine($"Вещественное число : {num1}");
-                    Console.WriteLine($"Мнимое число : {num2}");
+                    Console.WriteLine($"Вещественное число : {numr}");
+                    Console.WriteLine($"Мнимое число : {numi}");
                     break;
                 case 'h':
                 Complex ff1;
-                    Console.WriteLine(num1+ "+ "+ num2 +"*i; " +"модуль - " + mod + "; аргумент -   " + arg);
+                    Console.WriteLine(numr+ "+ "+ numi +"*i; " +"модуль - " + mod + "; аргумент -   " + arg);
                     break;
 
 
