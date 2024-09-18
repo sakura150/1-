@@ -35,11 +35,11 @@ namespace task3
             };
             this.Controls.Add(graphControl);
             GraphPane pane = graphControl.GraphPane;
-            pane.Title.Text = "Производительность сортировок";
-            pane.XAxis.Title.Text = "Размер массива";
-            pane.YAxis.Title.Text = "Прошедшее время (мс)";
+            pane.Title.Text = "Зависимость размера массива от времени работы сортировки";
+            pane.XAxis.Title.Text = "Размер массива, в тыс. шт.";
+            pane.YAxis.Title.Text = "Прошедшее время, мс";
 
-            string[] sortNames = { "BubbleSort", "InsertionSort", "SelectionSort", "ShakerSort", "GnomeSort", "BitonicSort", "ShellSort", "TreeSort", "CombSort", "HeapSort", "QuickSort", "MergeSort", "CountingSort", "BucketSort", "RadiaxSort" };
+            string[] sortNames = { "сортировка Пузырек", "сортировка вставками", "сортировка выбором", "шейкерная сортировка", "гномья сортировка", "битонная сортировка", "сортировка Шелла", "сортировка деревом", "сортировка расческой", "пирамидальная сортировка", "быстрая сортировка", "сортировка слиянием", "сортировка подсчетом", "поразрядная сортировка" };
             int startIndex = GetIndex(testNumber).Item1;
             int endIndex = GetIndex(testNumber).Item2;
 
