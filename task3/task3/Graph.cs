@@ -35,9 +35,9 @@ namespace task3
             };
             this.Controls.Add(graphControl);
             GraphPane pane = graphControl.GraphPane;
-            pane.Title.Text = "Зависимость размера массива от времени работы сортировки";
+            pane.Title.Text = "Зависимость времени выполнения сортировок от размера массива";
             pane.XAxis.Title.Text = "Размер массива, в тыс. шт.";
-            pane.YAxis.Title.Text = "Прошедшее время, мс";
+            pane.YAxis.Title.Text = "Время выполнения, мс";
 
             string[] sortNames = { "сортировка Пузырек", "сортировка вставками", "сортировка выбором", "шейкерная сортировка", "гномья сортировка", "битонная сортировка", "сортировка Шелла", "сортировка деревом", "сортировка расческой", "пирамидальная сортировка", "быстрая сортировка", "сортировка слиянием", "сортировка подсчетом", "поразрядная сортировка" };
             int startIndex = GetIndex(testNumber).Item1;
@@ -122,7 +122,7 @@ namespace task3
                 }
             }
 
-            graphControl.AxisChange();
+            //graphControl.AxisChange();
             graphControl.Invalidate();
         }
 
