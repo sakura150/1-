@@ -55,7 +55,7 @@ namespace Task4
         {
             foreach (T t in elementData)
             {
-                if (t.Equals(o)) return true;
+                if (t.Equals(o) || (t == null && o == null)) return true;
             }
             return false;
         }
@@ -72,12 +72,8 @@ namespace Task4
         }
         public bool isEmpty()
         {
-            int n = elementData.Length;
-            for (int i = 0; i < n; i++)
-            {
-                if (elementData[i] == null) return true;
-            }
-            return false;
+            if(size == 0) return true;
+            else return false;
         }
 
         //удаление объектв из массива есть объект там есть
@@ -118,13 +114,13 @@ namespace Task4
             return size;
         }
         //возвращать массив, содержащего все элементы дин массива
-        public void ToArray1()
+        public void ToArray()
         {
             T[] array = new T[size];
             for (int i = 0; i < size; i++) array[i] = elementData[i];
         }
         //возвращать масиив, содержащего все элементы дин массива, если аргумент пустой, то создаем новый массив, в который копируется элементы
-        public void ToArrayy2(T[] a)
+        public void ToArray(T[] a)
         {
             int n = a.Length;
             if (n <= size && n > 0)
@@ -144,7 +140,7 @@ namespace Task4
         }
 
         //добавлене элемента на указанную позицию
-        public void AddN(int index, T e)
+        public void Add(int index, T e)
         {
 
             // Если массив заполнен, увеличиваем его размер
@@ -168,7 +164,7 @@ namespace Task4
         }
 
         //добавления элементОВ на указанную позицию
-        public void AddArray(int e, T[] a)
+        public void Add(int e, T[] a)
         {
             for (int i = 0; i < a.Length; i++) AddN(i, a[i]);
         }
