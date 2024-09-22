@@ -42,14 +42,15 @@ internal partial class Program
 
 
                             // Добавление тега в список, если его еще нет
-                            if (!tags.Contains(tag))
+                            if (!tags.Contains(tag) && isValid == true)
                             {
                                 tags.Add(tag);
                             }
 
-                            // Переход к следующему символу "<"
-                            startTagIndex = line.IndexOf('<', endTagIndex + 1);
                         }
+                        
+                        // Переход к следующему символу "<"
+                        startTagIndex = line.IndexOf('<', endTagIndex + 1);
                     }
                 }
             }
