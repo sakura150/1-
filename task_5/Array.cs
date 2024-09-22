@@ -54,12 +54,11 @@ namespace task_5
             //удаление всех элементов
             public void Clear() => size = 0;
         //проверка есть ли элемент в массиве
-        public bool Contains(object obj)
+        public bool Contains(T o)
         {
-            for (int i = 0; i < this.size; i++)
+            foreach (T t in elementData)
             {
-                if (this.elementData[i].Equals(obj))
-                    return true;
+                if (t.Equals(o) || (t == null && o == null)) return true;
             }
             return false;
         }
