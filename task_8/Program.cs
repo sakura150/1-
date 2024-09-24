@@ -1,14 +1,14 @@
-﻿using task_6;
+﻿using vector;
 
 public class Programm
 {
-    public class MyStack<T> : task_6.MyVector<T>
+    public class MyStack<T> : vector.MyVector<T>
     {
-        private task_6.MyVector<T> stack;
+        private vector.MyVector<T> stack;
         private int size;
         public MyStack()
         {
-            stack = new task_6.MyVector<T>();
+            stack = new vector.MyVector<T>();
             size = -1;
         }
         public void Push(T item)
