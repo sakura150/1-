@@ -49,7 +49,7 @@ public class Program
                 }
                 else if (IsOperator(c.ToString()))
                 {
-                    while (operators.Peek() > 0 && IsOperator(operators.Peek()) && Priority(operators.Peek()) >= Priority(c.ToString()))
+                    while (operators.Search(operators.Peek) > 0 && IsOperator(operators.Peek()) && Priority(operators.Peek()) >= Priority(c.ToString()))
                     {
                         result += operators.Pop();
                     }
@@ -68,7 +68,7 @@ public class Program
                     operators.Pop();
                 }
             }
-            while (operators.Count > 0)
+            while (operators.Search(operators.Peek) > 0)
             {
                 result += operators.Pop();
             }
