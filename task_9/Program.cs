@@ -171,7 +171,7 @@ public class Program
 
         public static void Main(string[] args)
         {
-            string task = "789*+";
+            string task = "7+8*9";
             string line = CreatePol(task);
             double result = CalculatorPol(line);
             Console.WriteLine(result);
