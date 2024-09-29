@@ -56,17 +56,11 @@ public class Program
             {
                 throw new ArgumentException("Новое значение ключа должно быть больше текущего.");
             }
-
-            // Обновляем значение ключа
             heap.Set(index, value);
-
-            // Пока текущий узел не корень и значение его родителя меньше, чем его собственное,
-            // выполняем "просеивание вверх"
             while (index > 0 && heap.Get(Parent(index)).CompareTo(heap.Get(index)) > 0)
             {
-                // Меняем местами текущий узел и его родителя
                 Swap(index, Parent(index));
-                // Обновляем индекс для следующей итерации
+
                 index = Parent(index);
             }
         }
@@ -77,16 +71,12 @@ public class Program
                 throw new ArgumentException("Новое значение ключа должно быть меньше текущего.");
             }
 
-            // Обновляем значение ключа
-            heap.Set(index, value);
 
-            // Пока текущий узел не корень и значение его родителя меньше, чем его собственное,
-            // выполняем "просеивание вверх"
+            heap.Set(index, value);
             while (index > 0 && heap.Get(Parent(index)).CompareTo(heap.Get(index)) < 0)
             {
-                // Меняем местами текущий узел и его родителя
+
                 Swap(index, Parent(index));
-                // Обновляем индекс для следующей итерации
                 index = Parent(index);
             }
         }
