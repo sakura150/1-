@@ -1,4 +1,4 @@
-﻿using q;
+﻿using queue;
 using System;
 using System.Diagnostics;
 public class Program
@@ -26,7 +26,7 @@ public class Program
 
         string path = "log.txt";
 
-        q.MyPriorityQueue<Priotiry> list = new q.MyPriorityQueue<Priotiry>();
+        queue.MyPriorityQueue<Priotiry> list = new queue.MyPriorityQueue<Priotiry>();
         string input = Console.ReadLine();
         int n = int.Parse(input);
         int k = 0;
