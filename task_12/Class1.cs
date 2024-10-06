@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace q
+namespace queue
 {
     public class PriorityQueueCompare : IComparer<object>
     {
