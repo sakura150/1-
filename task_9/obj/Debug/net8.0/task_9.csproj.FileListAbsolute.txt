@@ -1,0 +1,4 @@
+C:\Users\Таисия\Desktop\касд\task_9\obj\Debug\net8.0\task_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Таисия\Desktop\касд\task_9\obj\Debug\net8.0\task_9.AssemblyInfoInputs.cache
+C:\Users\Таисия\Desktop\касд\task_9\obj\Debug\net8.0\task_9.AssemblyInfo.cs
+C:\Users\Таисия\Desktop\касд\task_9\obj\Debug\net8.0\task_9.csproj.CoreCompileInputs.cache
