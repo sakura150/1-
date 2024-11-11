@@ -1,0 +1,4 @@
+﻿int k = 15
+float u = 14
+int h = 26
+double n = 14
