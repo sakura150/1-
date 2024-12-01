@@ -1,0 +1,14 @@
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.AssemblyInfoInputs.cache
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.AssemblyInfo.cs
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.csproj.CoreCompileInputs.cache
+C:\Users\Таисия\Desktop\касд\task_25\task_25\bin\Debug\net8.0\task_25.exe
+C:\Users\Таисия\Desktop\касд\task_25\task_25\bin\Debug\net8.0\task_25.deps.json
+C:\Users\Таисия\Desktop\касд\task_25\task_25\bin\Debug\net8.0\task_25.runtimeconfig.json
+C:\Users\Таисия\Desktop\касд\task_25\task_25\bin\Debug\net8.0\task_25.dll
+C:\Users\Таисия\Desktop\касд\task_25\task_25\bin\Debug\net8.0\task_25.pdb
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.dll
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\refint\task_25.dll
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.pdb
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\task_25.genruntimeconfig.cache
+C:\Users\Таисия\Desktop\касд\task_25\task_25\obj\Debug\net8.0\ref\task_25.dll
