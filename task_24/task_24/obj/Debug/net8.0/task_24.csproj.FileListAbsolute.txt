@@ -1,0 +1,14 @@
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.AssemblyInfoInputs.cache
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.AssemblyInfo.cs
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.csproj.CoreCompileInputs.cache
+C:\Users\Таисия\Desktop\касд\task_24\task_24\bin\Debug\net8.0\task_24.exe
+C:\Users\Таисия\Desktop\касд\task_24\task_24\bin\Debug\net8.0\task_24.deps.json
+C:\Users\Таисия\Desktop\касд\task_24\task_24\bin\Debug\net8.0\task_24.runtimeconfig.json
+C:\Users\Таисия\Desktop\касд\task_24\task_24\bin\Debug\net8.0\task_24.dll
+C:\Users\Таисия\Desktop\касд\task_24\task_24\bin\Debug\net8.0\task_24.pdb
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.dll
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\refint\task_24.dll
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.pdb
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\task_24.genruntimeconfig.cache
+C:\Users\Таисия\Desktop\касд\task_24\task_24\obj\Debug\net8.0\ref\task_24.dll
