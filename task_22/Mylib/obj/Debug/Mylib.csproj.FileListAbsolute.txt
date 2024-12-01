@@ -1,0 +1,6 @@
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\bin\Debug\Mylib.dll
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\bin\Debug\Mylib.pdb
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\obj\Debug\Mylib.csproj.AssemblyReference.cache
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\obj\Debug\Mylib.csproj.CoreCompileInputs.cache
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\obj\Debug\Mylib.dll
+C:\Users\Таисия\Desktop\касд\task_22\Mylib\obj\Debug\Mylib.pdb
