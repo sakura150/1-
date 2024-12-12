@@ -1,0 +1,2 @@
+C:\Users\Таисия\source\repos\task_29\Mylib\obj\Debug\Mylib.csproj.AssemblyReference.cache
+C:\Users\Таисия\source\repos\task_29\Mylib\obj\Debug\Mylib.csproj.CoreCompileInputs.cache

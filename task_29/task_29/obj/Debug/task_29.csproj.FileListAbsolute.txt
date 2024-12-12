@@ -1,0 +1,10 @@
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.csproj.AssemblyReference.cache
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.Form1.resources
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.Properties.Resources.resources
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.csproj.GenerateResource.cache
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.csproj.CoreCompileInputs.cache
+C:\Users\Таисия\source\repos\task_29\task_29\bin\Debug\task_29.exe.config
+C:\Users\Таисия\source\repos\task_29\task_29\bin\Debug\task_29.exe
+C:\Users\Таисия\source\repos\task_29\task_29\bin\Debug\task_29.pdb
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.exe
+C:\Users\Таисия\source\repos\task_29\task_29\obj\Debug\task_29.pdb
