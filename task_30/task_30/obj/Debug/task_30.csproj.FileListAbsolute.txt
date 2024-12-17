@@ -1,0 +1,14 @@
+C:\Users\Таисия\Desktop\касд\task_30\task_30\bin\Debug\task_30.exe.config
+C:\Users\Таисия\Desktop\касд\task_30\task_30\bin\Debug\task_30.exe
+C:\Users\Таисия\Desktop\касд\task_30\task_30\bin\Debug\task_30.pdb
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.csproj.AssemblyReference.cache
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\MainWindow.baml
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\MainWindow.g.cs
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\App.g.cs
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30_MarkupCompile.cache
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.g.resources
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.Properties.Resources.resources
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.csproj.GenerateResource.cache
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.csproj.CoreCompileInputs.cache
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.exe
+C:\Users\Таисия\Desktop\касд\task_30\task_30\obj\Debug\task_30.pdb
